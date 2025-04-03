@@ -1,3 +1,6 @@
+conf.json
+package-lock.json
+node_modules
 # Logs
 logs
 *.log
