@@ -32,12 +32,9 @@ bot.on("message", (msg) => {
     }
     
     if (text === "/info") {
-        bot.sendMessage(chatId, "Bot di proprietà di @Serpizzotransatlantico \nRicorda ciò che vuoi grazie a Minnarello"); //prova @
-    }
-    if (text === "/juve") {
-        bot.sendMessage(chatId, "MERDA");// Prova 1 cancella
+        bot.sendMessage(chatId, "Bot di proprietà di @Serpizzotransatlantico \nRicorda ciò che vuoi grazie a Minnarello"); //prova info
     }
     if (text === "/help") {
-        bot.sendMessage(chatId, "Comandi possibili:\n/ricordami <secondi> <messaggio> per impostare un promemoria.\n/juve.\n/info."); // comandi disp
+        bot.sendMessage(chatId, "Comandi possibili:\n/ricordami <secondi> <messaggio> per impostare un promemoria.\n/info."); // comandi disp
     }
 });
